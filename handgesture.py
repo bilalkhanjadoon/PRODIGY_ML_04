@@ -82,7 +82,6 @@ model = Sequential([
     Dense(128, activation='relu'),  # Fully connected layer
     Dense(10, activation='softmax')  # Output layer with 10 categories
 ])
-
 # Display the model structure
 model.summary()
 
